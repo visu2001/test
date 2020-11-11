@@ -1,0 +1,140 @@
+body.first 
+ {
+ 	background: linear-gradient(45deg, rgb(0,80,0), transparent),
+ 	repeating-linear-gradient(45deg,rgb(0,90,0)0%, rgb(0,90,0)5%, transparent 5%,transparent 10%),
+ 	rgb(80,100,10) repeating-linear-gradient(-45deg,rgb(0,90,0,0.5)0%, rgb(0,90,0,0.5)5%, transparent 5%,transparent 10%)
+  
+
+ }
+img.lt { position: absolute;left: 0; top: 0; margin-top: .5%; } 
+img.rt { position: absolute;right: 0; top: 0; margin-top: .5%; } 
+img.head { width: 1300px; height: 80px; border: 2px solid black; margin-right: auto;margin-left: auto; display: block; }
+
+p.head{background-color: yellow; color: red; font-family: verdana; 
+border: 1px solid blue;  }
+.border{ border: 2px solid black; }
+img.tt{ opacity: 0.2 }
+
+/*-------------------------------------------*/
+.container {
+  position: absolute;
+  left: 0;
+  top: 20;
+  max-width: 463px;
+  margin: 0 auto;
+}
+.container .content {
+  position: absolute;
+  top:  0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.mySlides {display:none;}
+/*------------------------------------------*/
+.overimage {
+  position: relative;
+  text-align: center;
+  margin-right: 11%;
+  margin-left: 18%;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  max-width: 800px;
+  transform: translate(-50%, -50%);
+  color: yellow;
+}
+/*-------------------------*/
+.blink {
+  animation: blinker 2s linear infinite;
+  color: tomato;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.my {display:none;}
+.sugg{
+
+	background-color: CadetBlue;
+	position: absolute;
+  	right:  0;
+  	top: 22%;
+  	max-width: 400px;
+  	max-height: 800px;
+  	text-align: center;
+  	color: Navy;
+}
+
+/*footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: black;
+
+}
+.footco
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*signin*/
+.signinpage
+{
+	background-color: white;
+	position: fixed;
+  	left: 40%;
+  	right:40%;
+
+  	width: 400px;
+  	height: 400px;
+  	  	color: black;
+  	  	border: 2px solid red;
+
+}
+.posbutton{
+	position: absolute;
+	right: 35%;
+	bottom: 35%;
+}
+.poscaptcha{
+	position: absolute;
+	right: 41%;
+	bottom: 33%;
+}
+/*login*/
+.loginpage
+{
+	background-color: white;
+	position: fixed;
+  	left: 40%;
+  	right:40%;
+
+  	width: 400px;
+  	height: 400px;
+  	  	color: black;
+  	  	border: 2px solid red;
+ }
+ .posbutton1{
+	position: absolute;
+	right: 35%;
+	bottom: 35%;
+}
+.poscaptcha1{
+	position: absolute;
+	right: 41%;
+	bottom: 33%;
+}
+

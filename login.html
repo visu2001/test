@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AGRITECH</title>
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
+</head>
+<body class="first">
+	<div>
+		<img class="head" src="14.JPG">
+		<img class="lt" src="National-Emblem-1.JPG" width="114" height="85">		
+		<img class="rt" src="National-Emblem-1.JPG" width="114" height="85">		
+	</div>
+<div align="center">
+	<h1><p class="head"><b>Login Page</b></p></h1>
+	
+</div>
+<div class="loginpage">
+	<br>
+	<b>Name/Username:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text">
+	<br><br>
+	<b>Password:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text">
+	<br><br>
+	<b>What you see in image:</b>&nbsp&nbsp&nbsp<input type="text">
+	<br><br>
+	<div class="poscaptcha1">
+		<img class="mySlides" src="4.JPG" width="110" height="110">
+		<img class="mySlides" src="5.WEBP" width="110" height="110">
+		<img class="mySlides" src="6.WEBP"width="110" height="110">
+
+		
+
+	</div>
+<div class="posbutton1">
+	<button onclick="plusDivs(1)">&#10095;</button>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<form action="Home.html">
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="submit" value="Submit"></form>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+
+<!--footer-->
+
+<div class="footer">
+	<table class="footco">
+		<tr>
+		<th>
+			<p><a href="Home.html" style="color: black">Home</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="https://farmer.gov.in/M_Aboutus.aspx" style="color: black">About Us</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="https://farmer.gov.in/help.aspx" style="color: black">Help</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="https://farmer.gov.in/termnconditions.aspx" style="color: black">Terms and Condtions</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="http://agricoop.nic.in/weather-watch" style="color: black">Weather Forecast</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="https://farmer.gov.in/ecitizen.aspx" style="color: black">RTI</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="https://farmer.gov.in/sitemap.aspx" style="color: black">Sitemap</a></p>
+		</th>
+		<th>
+			<p>&nbsp| &nbsp</p>
+		</th>
+		<th>
+			<p><a href="https://farmer.gov.in/accessibility.aspx" style="color: black">Accessibility Statement</a></p>
+		</th>
+	</tr>
+
+
+	</table>
+	<p align="center">This website belongs to Department of Agriculture & Cooperation and Farmers Welfare,
+Ministry of Agriculture and Farmers Welfare, Government of India
+Last Updated : 26 JUNE, 2020</p>
+	
+
+
+
+</div>
+
+
+
+</body>
+</html>
